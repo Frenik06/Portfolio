@@ -175,7 +175,8 @@ const Projects = () => {
     {
       title: "Job Portal",
       desc: "Full-stack web application featuring separate login portals for Job Seekers and Recruiters. Includes custom dashboards, automated appointment/interview managers, and dynamic job listing tables.",
-      tags: ["React", "Node.js", "SQL", "Tailwind"],
+      tags: ["React", "PHP", "SQL", "Tailwind"],
+      link: "https://github.com/Frenik06/online-job-portal",
       icon: <Monitor size={24} />,
       color: "from-blue-500 to-indigo-600"
     },
@@ -183,6 +184,7 @@ const Projects = () => {
       title: "E-commerce Website",
       desc: "User-centric frontend shopping platform focusing on fluid navigation, responsive cart views, product filtering interfaces, and seamless multi-device scaling.",
       tags: ["React", "Tailwind CSS", "Redux"],
+      link: "https://github.com/Frenik06/E-commerce",
       icon: <ShoppingCart size={24} />,
       color: "from-purple-500 to-pink-600"
     },
@@ -190,6 +192,7 @@ const Projects = () => {
       title: "Portfolio Website",
       desc: "Highly performant, dynamic single-page application built using React and Tailwind CSS to showcase design sensibilities and optimal asset loading.",
       tags: ["React", "Tailwind", "Framer Motion"],
+      link: "https://github.com/Frenik06/Portfolio",
       icon: <User size={24} />,
       color: "from-cyan-500 to-blue-500"
     }
@@ -220,7 +223,12 @@ const Projects = () => {
                 </span>
               ))}
             </div>
-            <a href="#" className="flex items-center gap-2 text-indigo-400 font-semibold text-sm hover:text-indigo-300 transition-colors">
+            <a
+              href={project.link}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="flex items-center gap-2 text-indigo-400 font-semibold text-sm hover:text-indigo-300 transition-colors"
+            >
               View Project <ExternalLink size={14} />
             </a>
           </div>
