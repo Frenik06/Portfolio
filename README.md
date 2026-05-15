@@ -10,6 +10,16 @@ A premium, production-ready, and fully responsive personal portfolio website bui
 - **Performance Optimized**: Built with Vite for fast loading and optimal asset delivery.
 - **Lucide Icons**: High-quality visual anchors for skills, links, and navigation.
 
+## 📸 Screenshots
+
+| Desktop View | Mobile View |
+| :---: | :---: |
+| ![Home](/screenshot/desktop.png) | ![Home](/screenshot/mobile.png) |
+| ![Experiance](/screenshot/work1.png) | ![Experiance](/screenshot/work2.png) |
+| ![Education](/screenshot/education1.png) | ![Education](/screenshot/education2.png) |
+
+---
+
 ## 🛠️ Tech Stack
 
 - **Framework**: React.js
