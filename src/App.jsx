@@ -258,14 +258,14 @@ const Education = () => (
           level: "HSC (Class XII)",
           school: "Sanskardeep Vidhyasankul (GSEB)",
           date: "2023",
-          result: "Score: 97.5%",
+          result: "Score: 81.38%",
           icon: <Monitor className="text-cyan-400" />
         },
         {
           level: "SSC (Class X)",
           school: "Sanskardeep Vidhyasankul (GSEB)",
           date: "2021",
-          result: "Score: 81.38%",
+          result: "Score: 97.5%",
           icon: <Code2 className="text-indigo-400" />
         }
       ].map((edu, idx) => (
