@@ -146,7 +146,7 @@ const Experience = () => (
             <div className="flex flex-col md:flex-row md:items-center justify-between mb-4 gap-2">
               <h3 className="text-2xl font-bold text-white">Software Engineering Intern</h3>
               <span className="badge badge-cyan flex items-center gap-1">
-                <Calendar size={14} /> June 2024 (2 Weeks)
+                <Calendar size={14} /> May 2026 (2 Weeks)
               </span>
             </div>
             <div className="flex items-center gap-2 text-cyan-400 mb-6 font-semibold uppercase tracking-wider text-sm">
